@@ -1,7 +1,6 @@
 """
 * PixelCleaner v1.0.0
 * Created by 写代码的bow@bilibili.com
-* Published GitHub
 """
 
 import os
