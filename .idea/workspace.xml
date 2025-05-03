@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72d74c82-07ad-4fab-9b15-91fed7299786" name="更改" comment="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控&#10;5. 屎山代码">
-      <change afterPath="$PROJECT_DIR$/CLogFile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScanLargeFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScanLargeFiles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="72d74c82-07ad-4fab-9b15-91fed7299786" name="更改" comment="增加功能：&#10;1. 可视化磁盘&#10;2. 清理日志&#10;3. 屎山代码" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +139,7 @@
       <workItem from="1746015050955" duration="1146000" />
       <workItem from="1746151489128" duration="5040000" />
       <workItem from="1746227070302" duration="4445000" />
-      <workItem from="1746313220880" duration="2397000" />
+      <workItem from="1746313220880" duration="2700000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <option name="closed" value="true" />
@@ -170,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746230624075</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="增加功能：&#10;1. 可视化磁盘&#10;2. 清理日志&#10;3. 屎山代码">
+      <option name="closed" value="true" />
+      <created>1746315706142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746315706142</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +194,8 @@
     <MESSAGE value="首次提交" />
     <MESSAGE value="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控" />
     <MESSAGE value="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控&#10;5. 屎山代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控&#10;5. 屎山代码" />
+    <MESSAGE value="增加功能：&#10;1. 可视化磁盘&#10;2. 清理日志&#10;3. 屎山代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加功能：&#10;1. 可视化磁盘&#10;2. 清理日志&#10;3. 屎山代码" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$ScanBigFile.coverage" NAME="ScanLargeFiles 覆盖结果" MODIFIED="1746228689125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
