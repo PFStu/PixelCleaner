@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72d74c82-07ad-4fab-9b15-91fed7299786" name="更改" comment="首次提交">
-      <change afterPath="$PROJECT_DIR$/CWinUpdate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ScanLargeFiles.py" afterDir="false" />
+    <list default="true" id="72d74c82-07ad-4fab-9b15-91fed7299786" name="更改" comment="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控&#10;5. 屎山代码">
+      <change afterPath="$PROJECT_DIR$/CLogFile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CTempFile.py" beforeDir="false" afterPath="$PROJECT_DIR$/CTempFile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScanLargeFiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/ScanLargeFiles.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.CLogFile.executor": "Run",
     "Python.CRecycleBin.executor": "Run",
     "Python.CTempFile.executor": "Run",
     "Python.CWinUpdate.executor": "Run",
@@ -59,6 +59,7 @@
     "Python.ScanLargeFiles.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -142,7 +143,8 @@
       <workItem from="1746012687526" duration="1731000" />
       <workItem from="1746015050955" duration="1146000" />
       <workItem from="1746151489128" duration="5040000" />
-      <workItem from="1746227070302" duration="3314000" />
+      <workItem from="1746227070302" duration="4445000" />
+      <workItem from="1746313220880" duration="2397000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <option name="closed" value="true" />
@@ -152,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746188966893</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控">
+      <option name="closed" value="true" />
+      <created>1746230535424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746230535424</updated>
+    </task>
+    <task id="LOCAL-00003" summary="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控&#10;5. 屎山代码">
+      <option name="closed" value="true" />
+      <created>1746230624075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746230624075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,12 +189,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="首次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="首次提交" />
+    <MESSAGE value="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控" />
+    <MESSAGE value="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控&#10;5. 屎山代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加功能：&#10;1. 大文件扫描&#10;2. Windows更新&#10;3. KeyboardInterruptCatch&#10;4. 磁盘空间监控&#10;5. 屎山代码" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$ScanBigFile.coverage" NAME="ScanLargeFiles 覆盖结果" MODIFIED="1746228689125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$CRecycleBin.coverage" NAME="CRecycleBin 覆盖结果" MODIFIED="1746188609446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main 覆盖结果" MODIFIED="1746230258368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$CLogFile.coverage" NAME="CLogFile 覆盖结果" MODIFIED="1746315310048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$main.coverage" NAME="main 覆盖结果" MODIFIED="1746315604369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$CTempFile.coverage" NAME="CTempFile 覆盖结果" MODIFIED="1746188042857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PythonProject$CWinUpdate.coverage" NAME="CWinUpdate 覆盖结果" MODIFIED="1746229426024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

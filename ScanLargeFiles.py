@@ -7,7 +7,7 @@ import os
 import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
-
+from rich import print
 
 def fast_scan(drive_path, min_size, progress_callback, file_callback):
     large_files = []
@@ -83,7 +83,7 @@ def scan_large_files(drive_path, min_size_mb=100, top_n=50):
             print(f"\r当前: {os.path.basename(path)[:40]:<40}", end="", flush=True)
             last_file_update = now
 
-    print(f"扫描 {drive_path} 中大于 {min_size_mb}MB 的文件...")
+    print(f"[bold green]扫描 {drive_path} 中大于 {min_size_mb}MB 的文件...[/bold green]")
     print("=" * 60)
 
     with ThreadPoolExecutor(max_workers=4) as executor:
@@ -94,10 +94,10 @@ def scan_large_files(drive_path, min_size_mb=100, top_n=50):
 
     large_files.sort(key=lambda x: x[1], reverse=True)
 
-    print(f"\n扫描完成! 耗时 {time.time() - start_time:.2f}秒")
+    print(f"\n[bold green]扫描完成! 耗时 {time.time() - start_time:.2f}秒[/bold green]")
     print(f"总文件: {total:,} | 大文件: {large_count:,}")
 
-    print(f"\nTop {top_n} 大文件:")
+    print(f"\n[bold purple]Top {top_n} 大文件:[/bold purple]")
     for i, (path, size) in enumerate(large_files[:top_n], 1):
         print(f"{i:>3}. {size / 1024 / 1024:8.1f}MB | {path}")
 
